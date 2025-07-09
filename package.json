@@ -1,6 +1,6 @@
 {
   "homepage": "https://sarthakdixit.github.io/Portfolio",
-  "name": "developerfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
