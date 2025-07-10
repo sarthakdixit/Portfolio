@@ -36,6 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/sarthakdixit",
   linkedin: "https://www.linkedin.com/in/dixit-sarthak",
   gmail: "sarthak_dixit@outlook.com",
+  kaggle: "https://www.kaggle.com/srthkdixit",
   display: true
 };
 
@@ -203,6 +204,18 @@ const bigProjects = {
   title: "Projects",
   projects: [
     {
+      projectName: "Gitty",
+      projectDesc:
+        "A CLI-based version control system, you save snapshots of your project as you go, helping you manage changes and track the current state of your files.",
+      tags: ["Typescript", "NodeJS", "Express", "MongoDB"],
+      footerLink: [
+        {
+          name: "Code",
+          url: "https://github.com/sarthakdixit/Gitty"
+        }
+      ]
+    },
+    {
       projectName: "Financial Text Analyzer",
       projectDesc:
         "Built a financial text analyzer using a fine-tuned BERT model for sentiment analysis and summarization of financial content.",
@@ -211,6 +224,30 @@ const bigProjects = {
         {
           name: "Code",
           url: "https://github.com/sarthakdixit/Financial-Text-Analyzer"
+        }
+      ]
+    },
+    {
+      projectName: "Web Chat App",
+      projectDesc:
+        "A real-time app with Socket.IO allows instant communication between client and server without reloading, perfect for live updates or chats.",
+      tags: ["ReactJS", "NodeJS", "Express", "Socket.io", "SQL"],
+      footerLink: [
+        {
+          name: "Code",
+          url: "https://github.com/sarthakdixit/Web-Chat-App"
+        }
+      ]
+    },
+    {
+      projectName: "Lottery House",
+      projectDesc:
+        "The app lets users enter a lottery using ReactJS and MetaMask, with .NET Core handling the backend and Ethereum smart contracts ensuring fairness.",
+      tags: ["ReactJS", ".Net Core", "Meta Mask", "SQL"],
+      footerLink: [
+        {
+          name: "Code",
+          url: "https://github.com/sarthakdixit/Lottery-House"
         }
       ]
     }

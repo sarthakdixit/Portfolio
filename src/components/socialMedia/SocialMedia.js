@@ -32,6 +32,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.kaggle ? (
+        <a
+          href={socialMediaLinks.kaggle}
+          className="icon-button kaggle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
@@ -112,18 +124,6 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-stack-overflow"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.kaggle ? (
-        <a
-          href={socialMediaLinks.kaggle}
-          className="icon-button kaggle"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-kaggle"></i>
           <span></span>
         </a>
       ) : null}
